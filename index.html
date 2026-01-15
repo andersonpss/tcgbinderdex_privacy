@@ -1,53 +1,190 @@
-Política de Privacidade – TCG BinderDex
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Política de Privacidade • TCG BinderDex</title>
+  <meta name="description" content="Política de Privacidade do aplicativo TCG BinderDex." />
+  <style>
+    :root{
+      --bg:#0b0f16;
+      --panel:#0f1623;
+      --text:#e7ecf3;
+      --muted:#aeb7c6;
+      --border:rgba(255,255,255,.10);
+      --accent:#6d7cff;
+      --accent2:#8b5cf6;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, "Noto Sans", "Helvetica Neue", sans-serif;
+      background:
+        radial-gradient(1200px 600px at 20% 0%, rgba(109,124,255,.16), transparent 55%),
+        radial-gradient(900px 500px at 90% 10%, rgba(139,92,246,.14), transparent 55%),
+        linear-gradient(180deg, var(--bg), #070a10 60%);
+      color:var(--text);
+      line-height:1.6;
+    }
+    a{color:var(--accent); text-decoration:none}
+    a:hover{text-decoration:underline}
+    .wrap{max-width:920px; margin:0 auto; padding:28px 16px 48px}
+    header{
+      padding:18px 18px 14px;
+      border:1px solid var(--border);
+      background:rgba(15,22,35,.70);
+      border-radius:18px;
+      backdrop-filter: blur(10px);
+    }
+    .brand{
+      display:flex; gap:14px; align-items:center;
+    }
+    .logo{
+      width:44px; height:44px;
+      border-radius:12px;
+      display:grid; place-items:center;
+      background:rgba(255,255,255,.04);
+      border:1px solid var(--border);
+      overflow:hidden;
+    }
+    .logo img{
+      width:100%; height:100%;
+      object-fit:contain;
+    }
+    h1{margin:0; font-size:22px; font-weight:900; letter-spacing:.2px}
+    .sub{margin:4px 0 0; color:var(--muted); font-weight:700; font-size:13px}
+    main{
+      margin-top:14px;
+      padding:20px 18px;
+      border:1px solid var(--border);
+      background:rgba(15,22,35,.55);
+      border-radius:18px;
+      backdrop-filter: blur(10px);
+    }
+    h2{
+      margin:18px 0 8px;
+      font-size:16px;
+      font-weight:900;
+      letter-spacing:.2px;
+    }
+    p{margin:8px 0; color:var(--text)}
+    ul{margin:8px 0 8px 22px; color:var(--text)}
+    li{margin:6px 0}
+    .note{
+      margin-top:14px;
+      padding:12px 12px;
+      border-radius:14px;
+      border:1px dashed rgba(255,255,255,.14);
+      color:var(--muted);
+      background:rgba(255,255,255,.03);
+      font-weight:700;
+      font-size:13px;
+    }
+    footer{
+      margin-top:14px;
+      color:var(--muted);
+      font-size:12px;
+      text-align:center;
+      padding:10px 0;
+    }
+    .pill{
+      display:inline-block;
+      padding:4px 10px;
+      border-radius:999px;
+      border:1px solid var(--border);
+      background:rgba(255,255,255,.03);
+      font-weight:800;
+      font-size:12px;
+      color:var(--muted);
+    }
+  </style>
+</head>
 
-Última atualização: 14-01-2026
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand">
+        <!-- Opcional: se você hospedar a mesma logo junto do HTML, coloque o arquivo na mesma pasta e ajuste o src -->
+        <!-- Ex: src="logo.png" -->
+        <div class="logo" aria-hidden="true">
+          <img src="logo.png" alt="" onerror="this.style.display='none';" />
+        </div>
+        <div>
+          <h1>Política de Privacidade • TCG BinderDex</h1>
+          <div class="sub">
+            <span class="pill">Última atualização: 14/01/2026</span>
+          </div>
+        </div>
+      </div>
+    </header>
 
-O TCG BinderDex respeita a sua privacidade. Esta política explica como as informações são tratadas ao utilizar o aplicativo.
+    <main>
+      <p>
+        O <strong>TCG BinderDex</strong> respeita a sua privacidade. Esta política explica como as informações são tratadas ao utilizar o aplicativo.
+      </p>
 
-1. Informações coletadas
+      <h2>1. Informações coletadas</h2>
+      <p>
+        O TCG BinderDex <strong>não coleta dados pessoais identificáveis</strong>, como nome, e-mail, telefone ou localização precisa.
+        O aplicativo não exige criação de conta nem login.
+      </p>
 
-O TCG BinderDex não coleta dados pessoais identificáveis, como nome, e-mail, telefone ou localização precisa.
+      <h2>2. Uso de dados</h2>
+      <p>
+        O aplicativo utiliza acesso à internet exclusivamente para consultar informações públicas de cartas através da API
+        <a href="https://tcgdex.dev/" target="_blank" rel="noopener noreferrer">tcgdex.dev</a>.
+        Nenhum dado pessoal do usuário é enviado para servidores externos.
+      </p>
 
-O aplicativo não exige criação de conta nem login.
+      <h2>3. Armazenamento local</h2>
+      <p>
+        As informações criadas pelo usuário (coleções, fichários e decks) são armazenadas <strong>localmente no dispositivo</strong>.
+        Esses dados não são compartilhados nem sincronizados com servidores externos.
+      </p>
 
-2. Uso de dados
+      <h2>4. Compras no aplicativo</h2>
+      <p>
+        Caso o usuário opte por adquirir a versão <strong>PRO</strong>, as transações são processadas exclusivamente pela
+        <strong>Google Play Store</strong>, seguindo as políticas de privacidade e segurança do Google.
+        O TCG BinderDex não tem acesso às informações de pagamento do usuário.
+      </p>
 
-O aplicativo utiliza acesso à internet exclusivamente para:
+      <h2>5. Serviços de terceiros</h2>
+      <p>O aplicativo utiliza:</p>
+      <ul>
+        <li>
+          <strong>tcgdex.dev</strong> – API pública para obtenção de dados de cartas
+          (<a href="https://tcgdex.dev/" target="_blank" rel="noopener noreferrer">https://tcgdex.dev/</a>)
+        </li>
+      </ul>
+      <p>O uso dessa API segue os termos e políticas do respectivo serviço.</p>
 
-consultar informações públicas de cartas através da API tcgdex.dev
+      <h2>6. Segurança</h2>
+      <p>
+        O TCG BinderDex adota medidas razoáveis para proteger as informações armazenadas localmente no dispositivo do usuário.
+      </p>
 
-Nenhum dado pessoal do usuário é enviado para servidores externos.
+      <h2>7. Alterações nesta política</h2>
+      <p>
+        Esta política pode ser atualizada ocasionalmente. Quaisquer alterações serão publicadas nesta página.
+      </p>
 
-3. Armazenamento local
+      <h2>8. Contato</h2>
+      <p>
+        Se você tiver dúvidas sobre esta política, entre em contato:
+        <br />
+        📧 <strong>Email:</strong> <a href="mailto:andersonpss.89@gmail.com">andersonpss.89@gmail.com</a>
+      </p>
 
-Todas as informações criadas pelo usuário (coleções, fichários e decks) são armazenadas localmente no dispositivo.
+      <div class="note">
+        Dica: substitua “seuemail@exemplo.com” pelo seu e ajuste a data de “Última atualização”.
+        Se você quiser exibir a logo no topo, coloque um arquivo <strong>logo.png</strong> na mesma pasta deste HTML.
+      </div>
+    </main>
 
-Esses dados não são compartilhados nem sincronizados com servidores externos.
-
-4. Compras no aplicativo
-
-Caso o usuário opte por adquirir a versão PRO, as transações são processadas exclusivamente pela Google Play Store, seguindo as políticas de privacidade e segurança do Google.
-
-O TCG BinderDex não tem acesso às informações de pagamento do usuário.
-
-5. Serviços de terceiros
-
-O aplicativo utiliza:
-
-tcgdex.dev – API pública para obtenção de dados de cartas
-
-O uso dessa API segue os termos e políticas do respectivo serviço.
-
-6. Segurança
-
-O TCG BinderDex adota medidas razoáveis para proteger as informações armazenadas localmente no dispositivo do usuário.
-
-7. Alterações nesta política
-
-Esta política pode ser atualizada ocasionalmente. Quaisquer alterações serão publicadas nesta página.
-
-8. Contato
-
-Se você tiver dúvidas sobre esta política, entre em contato:
-
-📧 Email: andersonpss.89@gmail.com
+    <footer>
+      © 2026 TCG BinderDex • Documento público para fins de conformidade (Google Play)
+    </footer>
+  </div>
+</body>
+</html>
